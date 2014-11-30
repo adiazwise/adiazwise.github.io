@@ -1,1 +1,132 @@
-testing the html
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Porfolio Work #1</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' >
+</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				 <div class="col-md-6">
+				 		<img class="profile-picture img-circle" src="images/profile-picture.jpg" alt="Profile Picture">
+				 </div>
+				 <div class="col-md-6 text-right text-uppercase">
+					  <h1 class="text-super text-thin">Andrés Díaz</h1>
+					  <h4>Front-End Ninja</h4>
+				 </div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="caption-container img-rounded">
+				 		<img src="images/banner.png" alt="Welcome Banner" class="img-responsive"  />
+				 		<div  class="caption-text">
+				 			<p class="text-center text-uppercase text-super">HTML5 / css3 / JAVASCRIPT</p>
+				 		</div>
+				 	</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-muted">
+						<h2 >Featured Work</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="images/office.png"   alt="Projects" class="img-responsive img-rounded" data-toggle="modal" data-target="#modal_project1" />
+					<h3 class="text-uppercase text-center">projects</h3>
+					<p class="text-center">
+						<a  href='https://github.com/adiazwise/NanoDegreeProjects.git'>Look at here my projects!</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/trips.png" alt="Trips" class="img-responsive img-rounded"  data-toggle="modal" data-target="#modal_trips"/>
+					<h3 class="text-uppercase text-center">trips</h3>
+					<p class="text-center"><a href="ttp://adiazlabs.com/trips">See my trips</a></p>
+				</div>
+				<div class="col-md-4">
+					<img src="images/bike.png"  alt="Photographs" class="img-responsive img-rounded" data-toggle="modal" data-target="#modal_photographs"/>
+					<h3 class="text-uppercase text-center">photographs</h3>
+					<p class="text-center">
+					<a href="http://adiazlabs.com/photographs"> See my photographs</a>
+					</p>
+				</div>
+			</div>
+		</div>
+<!-- Modal 1-->
+<div class="modal fade" id="modal_project1" tabindex="-1" role="dialog" aria-labelledby="myModalProject" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalProject">Projects</h4>
+      </div>
+      <div class="modal-body">
+        <img  class="img-responsive img-rounded" src="images/office.png" alt="Projects">
+		<p>Recently I began the new program named "Front-End Web Developer Nanodegree" in Udacity. I feel excited because I'm learning a lot of things in the process.
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 2-->
+<div class="modal fade" id="modal_trips" tabindex="-1" role="dialog" aria-labelledby="myModalTrips" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalTrips">Trips</h4>
+      </div>
+      <div class="modal-body">
+    	    <img class="img-responsive img-rounded"  src="images/trips.png" alt="Trips"  >
+     	  <p> Pictures from my last trip</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Modal 3-->
+<div class="modal fade " id="modal_photographs" tabindex="-1" role="dialog" aria-labelledby="myModalPhotographs" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalPhotographs">Photographs</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive img-rounded" src="images/bike.png" alt="Photographs">
+        <ul>
+        	<li>Gallery 1</li>
+        	<li>Gallery 2</li>
+        	<li>Gallery 3</li>
+        	<li>Gallery 4</li>
+        	<li>Gallery 5</li>
+        	<li>Gallery 6</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="text-center">
+	Copyright 2014 Andrés Díaz
+</footer>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    font: karla,sans-serif;
+    color: #747704;
+}
+
+@media only screen and (max-width: 970px) {
+    h1,
+    h2,
+    h4 {
+        text-align: center;
+    }
+}
+
+.text-super {
+    font-size: 60px;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+/*Caption text in the Welcome Banner*/
+.caption-text {
+    position: absolute;
+    background: #000;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+    opacity: .6;
+}
+
+.caption-text p {
+    font-size: 20px;
+}
+
+.caption-container {
+    overflow: hidden;
+    position: relative;
+}
+
+hr {
+    color: #7d7;
+    border: 3px solid #bcbbbb;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.profile-picture {
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    border: 2px solid #747704;
+}
+
+.modal {
+    background: none;
+}
