@@ -167,7 +167,7 @@ var Player = function(x, y) {
     this.healthDisplay = function (){
 
         ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
-        ctx.font = "bold 24px Press+Start+2P";
+        ctx.font = "bold 24px Arial";
         ctx.fillText("LIFE REMAINING:"+ playerSetting.health, 30, 100);
 
     };
